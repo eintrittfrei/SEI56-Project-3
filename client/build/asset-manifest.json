@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9069364f.chunk.css",
+    "main.js": "/static/js/main.3318cfee.chunk.js",
+    "main.js.map": "/static/js/main.3318cfee.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.900dd88b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.900dd88b.js.map",
+    "static/js/2.d324c6cb.chunk.js": "/static/js/2.d324c6cb.chunk.js",
+    "static/js/2.d324c6cb.chunk.js.map": "/static/js/2.d324c6cb.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.9069364f.chunk.css.map": "/static/css/main.9069364f.chunk.css.map",
+    "static/js/2.d324c6cb.chunk.js.LICENSE.txt": "/static/js/2.d324c6cb.chunk.js.LICENSE.txt",
+    "static/js/main.3318cfee.chunk.js.LICENSE.txt": "/static/js/main.3318cfee.chunk.js.LICENSE.txt",
+    "static/media/Choose.fe28bd48.png": "/static/media/Choose.fe28bd48.png",
+    "static/media/Happy.33f54b11.png": "/static/media/Happy.33f54b11.png",
+    "static/media/Need.c68c4891.png": "/static/media/Need.c68c4891.png",
+    "static/media/Receive.b948c34c.png": "/static/media/Receive.b948c34c.png",
+    "static/media/cart.d146d6c3.svg": "/static/media/cart.d146d6c3.svg",
+    "static/media/crossleg.5faa790e.png": "/static/media/crossleg.5faa790e.png",
+    "static/media/greentea.175c9c8b.png": "/static/media/greentea.175c9c8b.png",
+    "static/media/main.scss": "/static/media/indexpagehero.1ce76464.jpeg",
+    "static/media/ladydrinks.06f060dc.png": "/static/media/ladydrinks.06f060dc.png",
+    "static/media/mandrinks.6be33b53.png": "/static/media/mandrinks.6be33b53.png",
+    "static/media/style.69a2132b.svg": "/static/media/style.69a2132b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.900dd88b.js",
+    "static/js/2.d324c6cb.chunk.js",
+    "static/css/main.9069364f.chunk.css",
+    "static/js/main.3318cfee.chunk.js"
+  ]
+}
