@@ -18,7 +18,7 @@
   },
   "type": "module",
   "scripts": {
-    "serve": "npx nodemon index.js",
+    
     "seed": "node db/seeds.js",
 	  "dev": "npx nodemon",
     "start": "node index.js",
