@@ -28,6 +28,7 @@ const startServer = async () => {
     app.use('/*', (_, res) => res.sendFile(`${__dirname}/client/build/index.html`))
   
     app.listen(port, () => console.log(`🚀 Express is up and running on port ${port}`))
+    app.listen(process.env.PORT)
     
   } catch (err) {
    
