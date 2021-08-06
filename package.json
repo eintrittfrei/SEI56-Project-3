@@ -18,9 +18,8 @@
   },
   "type": "module",
   "scripts": {
-    
     "seed": "node db/seeds.js",
-	  "dev": "npx nodemon",
+    "dev": "npx nodemon",
     "start": "node index.js",
     "build": "cd client && yarn && yarn build"
   }

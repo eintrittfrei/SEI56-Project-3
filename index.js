@@ -1,8 +1,5 @@
 import express from 'express'
 import { port } from './config/environment.js'
-
-
-
 import path from 'path'
 import mongoose from 'mongoose'
 import { dbURI } from './config/environment.js'
