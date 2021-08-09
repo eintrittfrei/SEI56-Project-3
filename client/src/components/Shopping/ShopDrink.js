@@ -6,7 +6,7 @@ import Breadcrumb from 'react-bootstrap/Breadcrumb'
 import Button from 'react-bootstrap/Button'
 import CartIcon from '../../styles/images/cart.svg'
 import { Link } from 'react-router-dom'
-// import CartTally from './CartTally.js'
+
 
 const ShopDrink = () => {
 

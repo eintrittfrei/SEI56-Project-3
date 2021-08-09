@@ -27,16 +27,6 @@ const SuggestedDrinkShow = () => {
   }, [id])
   console.log(drink)
 
-  // const userIsOwner = (userId) => {
-  //   const payload = getPayload()
-  //   if (!payload) return
-  //   return payload.sub === userId
-  // }
-  // userIsOwner()
-  // console.log('drink', drink)
-
-
-
 
   const handleDelete = async () => {
     try {

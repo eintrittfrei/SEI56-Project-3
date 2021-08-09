@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import NavHomepage from '../common/NavHomepage'
 import { Link, useHistory } from 'react-router-dom'
-// import AnimatedMap from './AnimatedMap.js'
+
 import Container from 'react-bootstrap/Container'
 import style from '../../styles/images/style.svg'
 import Happy from '../../styles/images/Happy.png'
@@ -14,15 +14,14 @@ import CardGroup from 'react-bootstrap/CardGroup'
 import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
-// import Carousel from 'react-bootstrap/Carousel'
+
 import greentea from '../../styles/images/greentea.png'
 import ladydrinks from '../../styles/images/ladydrinks.png'
 import mandrinks from '../../styles/images/mandrinks.png'
 import crossleg from '../../styles/images/crossleg.png'
 import { getPayload } from '../helpers/auth.js'
 import { Modal } from 'react-bootstrap'
-// import bighair from '../../styles/images/bighair.png'
-// import footer from '../../styles/images/footer.png'
+
 import LoginBox from '../auth/LoginBox.js'
 import Footer from './Footer'
 
@@ -181,37 +180,7 @@ const Home = () => {
             </div>
           </div>
 
-          {/* <Carousel fade>
-            <Carousel.Item >
-              <img
-                className="heiss-img"
-                src={greentea}
-                alt="First slide"
-              />
-            </Carousel.Item>
-            <Carousel.Item >
-              <img
-                className="heiss-img"
-                src={ladydrinks}
-                alt="Second slide"
-              />
-            </Carousel.Item>
-            <Carousel.Item >
-              <img
-                className="d-block w-100"
-                src={mandrinks}
-                alt="Third slide"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={crossleg}
-                alt="Fourth slide"
-              />
-            </Carousel.Item>
-          </Carousel> */}
-
+        
           <Container className="heiss-img-wrapper">
             <div className="heiss-img">
               <img className="heiss-img"
