@@ -49,6 +49,11 @@ Frontend:
 
 ## Heiss - Online order service for hot drinks from around the world 
 
+![Screenshot 2021-08-16 at 14 57 07](https://user-images.githubusercontent.com/16645758/129567514-99bdc37b-5ad3-4274-a224-215a9d08b96a.png)
+
+![Screenshot 2021-08-16 at 14 57 35](https://user-images.githubusercontent.com/16645758/129567545-f62a9e0b-97b3-4c2b-822e-27f7ab18c8ff.png)
+
+
 ## Deployed version
 https://sei56-3.herokuapp.com/
 
@@ -98,12 +103,55 @@ The backend took up the first 2 days of coding however we added the basket and h
 We created models for the drinks, shoppedDrinks (basket). suggested Drinks and  users.  (drinkSchema), comments and a virtual model for the ratings. 
 We also added a reverse relationship model so we could show the drinks related to one user on the user profile. 
 
-CODE EXAMPLE
+```javascript
+// define the drink schema
+const drinkSchema = new mongoose.Schema({
+  drink: { type: String, required: true, unique: true },
+  type: { type: String, required: true },
+  country: { type: String, required: true },
+  description: { type: String, required: true },
+  image: { type: String, required: true },
+  funFact: { type: String, maxlength: 300 },
+  price: { type: Number, required: true },
+  countInStock: { type: Number, required: true },
+  origin: { type: String, required: true },
+  owner: { type: mongoose.Schema.ObjectId, ref: 'User', required: true },
+  comments: [commentSchema] ,// comments field is array of comments from commentSchema,
+  longitude: { type: Number },
+  latitude: { type: Number },
+  icon: { type: String }
+})
 
+
+```
 ### Controllers
 We created controllers for authentication, drinks, shoppedDrinks, suggestedDrinks and users. For registration, login and CRUD functionality for the users who are logged in. 
 
-CODE EXAMPLE
+```javascript 
+
+//Login user
+export const loginUser = async (req, res) => {
+  try {
+    const userToLogin = await User.findOne({ email: req.body.email })
+    console.log('User to login', userToLogin)
+    console.log(userToLogin.validatePassword(req.body.password))
+    if (!userToLogin || !userToLogin.validatePassword(req.body.password)) {
+      throw new Error()
+    }
+ // Token 
+    const token = jwt.sign({ sub: userToLogin._id }, secret, { expiresIn: '3 days' })
+    console.log(token)
+    // Return response
+    return res.status(200).json({ message: `Welcome back ${userToLogin.username}`, token })
+  } catch (err) {
+    console.log(err)
+    return res.status(422).json({ message: 'Unauthorised' })
+  } 
+}
+
+```
+
+
 
 ## Frontend
 We decided to destructure the front end into several components to keep it manageable using React Router Dom to navigate between the different components. The App.js component functions as our router hub. The different components are grouped in several folders for readability based on functionality. For example the auth group includes any components dedicated to registration and login. 
@@ -112,20 +160,54 @@ Example Drink.js component:
 I created a new component and imported the required packages. 
 I then began by making an axios request first to check I was getting the correct data. I used the useEffect() function to make the get request to the API. I also used an async await to ensure the data request would work in the right order. I used a subject literal to add the item id at the end. I also added a try/ catch to show any errors that might come up.  
 
-EXAMPLE CODE  
- 
+```javascript
+
+const DrinkShow = () => {
+  const [drink, setDrink] = useState({})
+  const [quantity, setQuantity] = useState(1)
+  const { id } = useParams()
+
+  const history = useHistory()
+
+```
+
 I could see the data in my console.log as a json object and then destructured by passing in the data directly. 
 
-EXAMPLE CODE 
-
+```javascript 
+useEffect(() => {
+    const getData = async () => {
+      try {
+        const { data } = await axios.get(`/api/drinks/${id}`)
+        setDrink(data)
+      } catch (err) {
+        console.log(err)
+      }
+    }
+    getData()
+  }, [id])
+  console.log(drink)
+```  
+  
 I set the data to state by using useState() setting the state to an empty object. 
-
-EXAMPLE CODE 
-
 Now I could access the data using dot notation and display information in the return. 
 
-EXAMPLE CODE 
-
+```javascript 
+ <div className="right">
+            <Container className="title" style={{ width: '100' }}>
+              <h2>{drink.drink}</h2>
+              <h4 className="origin">Origin: <span className="country-name">{drink.country}</span></h4>
+            </Container>
+            <Container className="content" style={{ width: '100' }}>
+              <h4>Description</h4>
+              <p className="description">
+                {drink.description}
+              </p>
+              <div className="info-container">
+                <div className="p-container">
+                  <p className="averageRating"><span>Average rating: </span>{drink.avgRating}</p>
+                  <p className="averageRating"><span>Price: £</span>{drink.price}</p>
+                  <p className="averageRating"><span>Quantity: </span><input name="quantity" value={quantity} onChange={handleChange}></input></p>
+```
 
 ## Challenges
 * One of the main challenges was the styling. As the project progressed and each group member added styling to the style sheet this created some issues for other team members. 
