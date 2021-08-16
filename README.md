@@ -1,3 +1,4 @@
+![Wireframe ](https://user-images.githubusercontent.com/16645758/129568673-766f2427-221d-4554-ac41-50289c8298e4.png)
 # General Assembly Project 3
 
 ### Overview
@@ -70,7 +71,8 @@ Start the front end -- yarn start
 ## Planning
 This was a group project with four students over 1 week. We spent the first day planning the project. We used figma to lay out our wireframes and planned the layout of each page. We also agreed on a rough timeline and daily team stand ups to keep our plan on track to ensure we would meet the deadline. We decided to use an existing website as the design inspiration and created a mock design based on that using figma. We planned out the required relationships for the backend. 
 
-SCREENSHOTS WIREFRAMES and DESIGN 
+![Wireframe ](https://user-images.githubusercontent.com/16645758/129568711-e36b259c-52e5-4399-81b7-ed03dd341364.png)
+
 
 ## Process
 We decided to code the backend as a group taking equal turns at coding and divided tasks up amongst the group members for the front end. We used React Bootstrap for styling and imported each component individually as this was recommended in the Bootstrap documentation to avoid importing unnecessary styling. 
