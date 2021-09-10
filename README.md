@@ -60,11 +60,11 @@ https://sei56-3.herokuapp.com/
 
 Clone or download the repo. In your terminal run the following commands: 
 
-Install dependencies with 'yarn add'.
-Start the database 'mongod --dbpath ~/data/db'.
-Start the server 'yarn serve'.
-Move to the client folder 'cd client'. 
-Start the front end 'yarn start'. 
+* Install dependencies with 'yarn add'.
+* Start the database 'mongod --dbpath ~/data/db'.
+* Start the server 'yarn serve'.
+* Move to the client folder 'cd client'. 
+* Start the front end 'yarn start'. 
 
 ## Planning
 This was a group project with four students over 1 week. We spent the first day planning the project. We used figma to lay out our wireframes and planned the layout of each page. We also agreed on a rough timeline and daily team stand-ups to keep our plan on track to ensure we would meet the deadline. We decided to use an existing website as the design inspiration and created a mock design based on that using figma. We planned out the required relationships for the backend. 
