@@ -13,11 +13,11 @@ Victoria Olanipekun https://github.com/victoriaolanipekun
 7 days
 
 ## Project Brief:  
-* Build a full-stack application by making your own backend and your own front-end
-* Use an Express API to serve your data from a Mongo database
-* Consume your API with a separate front-end built with React
-* Be a complete product which most likely means multiple relationships and CRUD functionality for at least a couple of models
-* Implement thoughtful user stories/wireframes that are significant enough to help you know which features are core MVP and which you can cut
+* Build a full-stack application by making your own backend and your own front-end.
+* Use an Express API to serve your data from a Mongo database.
+* Consume your API with a separate front-end built with React.
+* Be a complete product which most likely means multiple relationships and CRUD functionality for at least a couple of models.
+* Implement thoughtful user stories/wireframes that are significant enough to help you know which features are core MVP and which you can cut.
 
 ## Technologies Used
 
@@ -60,11 +60,11 @@ https://sei56-3.herokuapp.com/
 
 Clone or download the repo. In your terminal run the following commands: 
 
-Install dependencies with 'yarn add'
-Start the database 'mongod --dbpath ~/data/db'
-Start the server 'yarn serve'
-Move to the client folder 'cd client' 
-Start the front end 'yarn start' 
+Install dependencies with 'yarn add'.
+Start the database 'mongod --dbpath ~/data/db'.
+Start the server 'yarn serve'.
+Move to the client folder 'cd client'. 
+Start the front end 'yarn start'. 
 
 ## Planning
 This was a group project with four students over 1 week. We spent the first day planning the project. We used figma to lay out our wireframes and planned the layout of each page. We also agreed on a rough timeline and daily team stand-ups to keep our plan on track to ensure we would meet the deadline. We decided to use an existing website as the design inspiration and created a mock design based on that using figma. We planned out the required relationships for the backend. 
@@ -77,21 +77,21 @@ We decided to code the backend as a group taking equal turns at coding and divid
 
 I specifically coded on the backend on the following parts:
 
-db/data/users.js - owner field
-db/seeds.js - seeds file for owner information
-config/ router.js - secure route & delete route
-config/secureRoute.js - authentication
-config/ router.js - user rating
-controllers/drinks.js - create comments/ delete comments
-models/drinks.js - commentSchema & delete comments & drinkSchema
+* db/data/users.js - owner field
+* db/seeds.js - seeds file for owner information
+* config/ router.js - secure route & delete route
+* config/secureRoute.js - authentication
+* config/ router.js - user rating
+* controllers/drinks.js - create comments/ delete comments
+* models/drinks.js - commentSchema & delete comments & drinkSchema
 
 On the front end I was responsible for:
 
-Users.js - controller to return user profile information 
-UserProfile.js - Showing items the user created (suggestions)
-SuggestedDrinkShow.js 
-SuggestionsEdit.js the edit and delete functionality on the user profile page 
-Drinks.js the drinks show page 
+* Users.js - controller to return user profile information. 
+* UserProfile.js - Showing items the user created (suggestions).
+* SuggestedDrinkShow.js. 
+* SuggestionsEdit.js the edit and delete functionality on the user profile page. 
+* Drinks.js the drinks show page. 
 
 We also decided to work on the final styling as a group. 
 Deployment via Heroku was done individually after cloning the original repo from our main repo owner. 
@@ -211,8 +211,7 @@ Now I could access the data using dot notation and display information in the re
 
 ## Challenges
 * One of the main challenges was the styling. As the project progressed and each group member added styling to the style sheet this created some issues for other team members. 
-* Another challenge was planning the right models. Due to limited experience we had to plan as best as we could for our basic MVP. We ended up adding additional models to the backend. 
-* 
+* Another challenge was planning the right models. Due to limited experience we had to plan as best as we could for our basic MVP. We ended up adding additional models to the backend.
 
 ## Wins 
 * We managed to build a fully functioning app in the required time. 
