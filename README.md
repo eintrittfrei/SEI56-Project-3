@@ -23,8 +23,8 @@ Victoria Olanipekun https://github.com/victoriaolanipekun
 
 Backend: 
 * Node.js
-* MongoDB
 * Express 
+* MongoDB
 * Mongoose
 * JSON Web Token
 * bcrypt
@@ -32,10 +32,9 @@ Backend:
 
 Frontend:
 * JavaScript (ES6)
-* React 
+* React.js 
 * Axios 
 * Nodemon 
-* React
 * React Bootstrap
 * SASS
 * CSS3
@@ -97,7 +96,7 @@ We also decided to work on the final styling as a group.
 Deployment via Heroku was done individually after cloning the original repo from our main repo owner. 
 
 ## Backend 
-The backend took up the first 2 days of coding however we added the basket and heiss room for suggestions after we had started on the front end. 
+The backend took up the first 2 days of coding however we added the basket and 'Heiss Room' for suggestions after we had started on the front end. 
 
 ### Models 
 We created models for the drinks, shoppedDrinks (basket). suggested Drinks and  users.  (drinkSchema), comments and a virtual model for the ratings. 
@@ -171,7 +170,7 @@ const DrinkShow = () => {
 
 ```
 
-I could see the data in my console.log as a json object and then destructured by passing in the data directly. 
+I could see the data in my console.log as a JSON object and then destructured by passing in the data directly. 
 
 ```javascript 
 useEffect(() => {
