@@ -76,13 +76,13 @@ We decided to code the backend as a group taking equal turns at coding and divid
 
 I specifically coded on the backend on the following parts:
 
-* db/data/users.js - owner field
-* db/seeds.js - seeds file for owner information
-* config/ router.js - secure route & delete route
-* config/secureRoute.js - authentication
-* config/ router.js - user rating
-* controllers/drinks.js - create comments/ delete comments
-* models/drinks.js - commentSchema & delete comments & drinkSchema
+* db/data/users.js - owner field.
+* db/seeds.js - seeds file for owner information.
+* config/ router.js - secure route & delete route.
+* config/secureRoute.js - authentication.
+* config/ router.js - user rating.
+* controllers/drinks.js - create comments/ delete comments.
+* models/drinks.js - commentSchema & delete comments & drinkSchema.
 
 On the front end I was responsible for:
 
