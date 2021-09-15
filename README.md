@@ -4,10 +4,11 @@
 This was the third project of the General Assembly Software Engineering Immersive course and was a group project with a team of four students created over 7 days. Heiss is a hot drink service that delivers quality coffee or tea with recipes from around the world. The user can add items to the shopping basket and select check out. They can also join the community and suggest their own drinks by adding a new drink to the “Heiss Room”. They can also manage their user profile and edit or delete their suggestions. 
 
 ## Project Members
-Ole Nascimento https://github.com/eintrittfrei
-Bex Jones https://github.com/simplythebex
-Daria Kafler https://github.com/daria-kafler
-Victoria Olanipekun https://github.com/victoriaolanipekun
+
+### Ole Nascimento https://github.com/eintrittfrei
+### Bex Jones https://github.com/simplythebex
+### Daria Kafler https://github.com/daria-kafler
+### Victoria Olanipekun https://github.com/victoriaolanipekun
 
 ## Timeframe
 7 days
@@ -221,7 +222,10 @@ Now I could access the data using dot notation and display information in the re
 * There are still some issues with the suggestions edit form. The image can currently not be updated as it is fed automatically with the pre populated form data. This hides the form upload field for updates. 
 
 ## Key Learning
-It was very useful to work on a project in a larger group of four people. It showed how important planning and good communication is. Especially with the styling it would have been better to plan ahead in more detail. 
+
+* It was very useful to work on a project in a larger group of four people. 
+* It showed the importance of planning and good communication is. 
+* Especially styling, it would have been better to plan ahead in more detail. 
 
 ## Future Improvements 
 * The ratings currently have to be typed in as a number. It would be good to add a simple icon from 1-5 that can be clicked. 
