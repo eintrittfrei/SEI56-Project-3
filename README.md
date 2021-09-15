@@ -48,7 +48,8 @@ Front-end:
 
 ## Heiss - Online order service for hot drinks from around the world 
 
-<kbd>![Screenshot 2021-08-16 at 14 57 07](https://user-images.githubusercontent.com/16645758/129567514-99bdc37b-5ad3-4274-a224-215a9d08b96a.png)</kbd>
+<kbd>![Screenshot 2021-09-15 at 10 47 23](https://user-images.githubusercontent.com/16645758/133401877-846bc87c-3063-40b9-a0df-c1c05b4f4549.png)
+</kbd>
 
 <kbd>![Screenshot 2021-08-16 at 14 57 35](https://user-images.githubusercontent.com/16645758/129567545-f62a9e0b-97b3-4c2b-822e-27f7ab18c8ff.png)</kbd>
 
