@@ -69,7 +69,7 @@ Clone or download the repo. In your terminal run the following commands:
 * Start the front end 'yarn start'. 
 
 ## Planning
-This was a group project with four students over 1 week. We spent the first day planning the project. We used figma to lay out our wireframes and planned the layout of each page. We also agreed on a rough timeline and daily team stand-ups to keep our plan on track to ensure we would meet the deadline. We decided to use an existing website as the design inspiration and created a mock design based on that using figma. We planned out the required relationships for the back-end. 
+This was a group project with four students over 1 week. We spent the first day planning the project. We used figma to lay out our wireframes and plan the layout of each page. We also agreed on a rough timeline and daily team stand-ups to keep our plan on track to ensure we would meet the deadline. We decided to use an existing website as the design inspiration and created a mock design based on that using figma. We planned out the required relationships for the back-end. 
 
 <kbd>![Wireframe ](https://user-images.githubusercontent.com/16645758/129568673-766f2427-221d-4554-ac41-50289c8298e4.png)</kbd>
 
@@ -212,7 +212,7 @@ Now I could access the data using dot notation and display information in the re
 ```
 
 ## Challenges
-* One of the main challenges was the styling. As the project progressed and each group member added styling to the style sheet this created some issues for other team members. 
+* One of the main challenges was the styling. As the project progressed and each group member added styling to the style sheet this created some issues for other team members because the different selectors where overlaping which started to effect styling on other pages. 
 * Another challenge was planning the right models. Due to limited experience we had to plan as best as we could for our basic MVP. We ended up adding additional models to the backend.
 
 ## Wins 
@@ -227,7 +227,7 @@ Now I could access the data using dot notation and display information in the re
 
 * It was very useful to work on a project in a larger group of four people. 
 * It showed the importance of planning and good communication is. 
-* Especially styling, it would have been better to plan ahead in more detail. 
+* It would have been better to plan ahead in more detail, especially with the styling.
 
 ## Future Improvements 
 * The ratings currently have to be typed in as a number. It would be good to add a simple icon from 1-5 that can be clicked. 
