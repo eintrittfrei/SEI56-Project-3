@@ -5,10 +5,10 @@ This was the third project of the General Assembly Software Engineering Immersiv
 
 ## Project Members
 
-### Ole Nascimento https://github.com/eintrittfrei
-### Bex Jones https://github.com/simplythebex
-### Daria Kafler https://github.com/daria-kafler
-### Victoria Olanipekun https://github.com/victoriaolanipekun
+#### Ole Nascimento https://github.com/eintrittfrei
+#### Bex Jones https://github.com/simplythebex
+#### Daria Kafler https://github.com/daria-kafler
+#### Victoria Olanipekun https://github.com/victoriaolanipekun
 
 ## Timeframe
 7 days
