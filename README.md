@@ -22,7 +22,7 @@ This was the third project of the General Assembly Software Engineering Immersiv
 
 ## Technologies Used
 
-Backend: 
+Back-end: 
 * Node.js
 * Express 
 * MongoDB
@@ -31,7 +31,7 @@ Backend:
 * bcrypt
 * Insomnia
 
-Frontend:
+Front-end:
 * JavaScript (ES6)
 * React.js 
 * Axios 
@@ -67,15 +67,15 @@ Clone or download the repo. In your terminal run the following commands:
 * Start the front end 'yarn start'. 
 
 ## Planning
-This was a group project with four students over 1 week. We spent the first day planning the project. We used figma to lay out our wireframes and planned the layout of each page. We also agreed on a rough timeline and daily team stand-ups to keep our plan on track to ensure we would meet the deadline. We decided to use an existing website as the design inspiration and created a mock design based on that using figma. We planned out the required relationships for the backend. 
+This was a group project with four students over 1 week. We spent the first day planning the project. We used figma to lay out our wireframes and planned the layout of each page. We also agreed on a rough timeline and daily team stand-ups to keep our plan on track to ensure we would meet the deadline. We decided to use an existing website as the design inspiration and created a mock design based on that using figma. We planned out the required relationships for the back-end. 
 
-![Wireframe ](https://user-images.githubusercontent.com/16645758/129568673-766f2427-221d-4554-ac41-50289c8298e4.png)
+<kbd>![Wireframe ](https://user-images.githubusercontent.com/16645758/129568673-766f2427-221d-4554-ac41-50289c8298e4.png)</kbd>
 
 
 ## Process
-We decided to code the backend as a group taking equal turns at coding and divided tasks up amongst the group members for the front end. We used React Bootstrap for styling and imported each component individually as this was recommended in the Bootstrap documentation to avoid importing unnecessary styling. 
+We decided to code the back-end as a group taking equal turns at coding and divided tasks up amongst the group members for the front-end. We used React Bootstrap for styling and imported each component individually as this was recommended in the Bootstrap documentation to avoid importing unnecessary styling. 
 
-I specifically coded on the backend on the following parts:
+I specifically coded on the back-end on the following parts:
 
 * db/data/users.js - owner field.
 * db/seeds.js - seeds file for owner information.
@@ -85,7 +85,7 @@ I specifically coded on the backend on the following parts:
 * controllers/drinks.js - create comments/ delete comments.
 * models/drinks.js - commentSchema & delete comments & drinkSchema.
 
-On the front end I was responsible for:
+On the front-end I was responsible for:
 
 * Users.js - controller to return user profile information. 
 * UserProfile.js - Showing items the user created (suggestions).
@@ -96,8 +96,8 @@ On the front end I was responsible for:
 We also decided to work on the final styling as a group. 
 Deployment via Heroku was done individually after cloning the original repo from our main repo owner. 
 
-## Backend 
-The backend took up the first 2 days of coding however we added the basket and 'Heiss Room' for suggestions after we had started on the front end. 
+## Back-end 
+The back-end took up the first 2 days of coding however we added the basket and 'Heiss Room' for suggestions after we had started on the front-end. 
 
 ### Models 
 We created models for the drinks, shoppedDrinks (basket). suggested Drinks and  users.  (drinkSchema), comments and a virtual model for the ratings. 
@@ -153,8 +153,8 @@ export const loginUser = async (req, res) => {
 
 
 
-## Frontend
-We decided to destructure the front end into several components to keep it manageable using React Router Dom to navigate between the different components. The App.js component functions as our router hub. The different components are grouped in several folders for readability based on functionality. For example the auth group includes any components dedicated to registration and login. 
+## Front-end
+We decided to destructure the front-end into several components to keep it manageable using React Router Dom to navigate between the different components. The App.js component functions as our router hub. The different components are grouped in several folders for readability based on functionality. For example the auth group includes any components dedicated to registration and login. 
 
 Example Drink.js component: 
 I created a new component and imported the required packages. 
