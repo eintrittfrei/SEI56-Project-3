@@ -14,7 +14,7 @@ This was the third project of the General Assembly Software Engineering Immersiv
 7 days
 
 ## Project Brief:  
-* Build a full-stack application by making your own backend and your own front-end.
+* Build a full-stack application by making your own back-end and your own front-end.
 * Use an Express API to serve your data from a Mongo database.
 * Consume your API with a separate front-end built with React.
 * Be a complete product which most likely means multiple relationships and CRUD functionality for at least a couple of models.
@@ -213,11 +213,11 @@ Now I could access the data using dot notation and display information in the re
 
 ## Challenges
 * One of the main challenges was the styling. As the project progressed and each group member added styling to the style sheet this created some issues for other team members because the different selectors where overlaping which started to effect styling on other pages. 
-* Another challenge was planning the right models. Due to limited experience we had to plan as best as we could for our basic MVP. We ended up adding additional models to the backend.
+* Another challenge was planning the right models. Due to limited experience we had to plan as best as we could for our basic MVP. We ended up adding additional models to the back-end.
 
 ## Wins 
 * We managed to build a fully functioning app in the required time. 
-* The backend work as a group went smoothly without major issues. The group worked very well as a team. 
+* The back-end work as a group went smoothly without major issues. The group worked very well as a team. 
 * The app is mobile responsive. 
 
 ## Bugs
